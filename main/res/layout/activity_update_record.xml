@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size_10"
+    tools:context="mx.com.dloza.crudcar.UpdateRecordActivity">
+
+
+    <TextView
+        android:id="@+id/title_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_car"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/cop_name_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/cop_mark_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/mark" />
+
+    <EditText
+        android:id="@+id/cop_model_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/model" />
+
+    <EditText
+        android:id="@+id/cop_transmission_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/transmission" />
+
+    <EditText
+        android:id="@+id/cop_combustible_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/combustible" />
+
+    <EditText
+        android:id="@+id/cop_year_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/year" />
+
+    <EditText
+        android:id="@+id/cop_image_link_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="@string/image_car_url" />
+    <Button
+        android:id="@+id/update_cop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_car"/>
+
+</LinearLayout>

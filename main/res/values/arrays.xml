@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filterOptions">
+        <item>Name</item>
+        <item>Mark</item>
+        <item>Model</item>
+        <item>Procesador</item>
+        <item>Memoria</item>
+        <item>Year</item>
+    </string-array>
+</resources>
